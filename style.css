@@ -85,7 +85,6 @@ header .links {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 #bannerText span {
   font-size: 40px;
@@ -122,10 +121,12 @@ img {
   transition: 0.4s;
   border: 2px solid var(--secondary);
   padding: 10px;
+  cursor: pointer;
 }
 img:hover {
   filter: grayscale(0%);
   transform: all 0.4s;
+  cursor: pointer;
 }
 .align-items-center {
   align-items: center !important;
@@ -152,4 +153,8 @@ img:hover {
   color: var(--text-color);
   background-color: var(--secondary);
   width: 100%;
+}
+.btn a {
+  color: var(--black);
+  text-decoration: none;
 }
