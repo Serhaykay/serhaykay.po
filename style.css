@@ -12,12 +12,12 @@
   --animate-duration: 800ms;
   --animate-delay: 2s;
 }
-.lightmode{
-    --text-color: black;
-    --header-font: "Poppins", sans-serif;
-    --body-font: "Playwrite AR", cursive;
-    --black: #fff;
-    --secondary: #ffc107;
+.lightmode {
+  --text-color: black;
+  --header-font: "Poppins", sans-serif;
+  --body-font: "Playwrite AR", cursive;
+  --black: #fff;
+  --secondary: #ffc107;
 }
 
 body {
@@ -39,26 +39,26 @@ header {
   background-color: var(--secondary);
   color: var(--black);
 }
-.navbar-brand{
-    font-family: var(--body-font)!important;
-    color: var(--text-color)!important;
-    font-size: 30px;
-    text-decoration: none;
-    font-weight: bold;
+.navbar-brand {
+  font-family: var(--body-font) !important;
+  color: var(--text-color) !important;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
-.navbar-brand:hover{
-    color: var(--secondary)!important;
-    transition: all .3s ease-in-out;
+.navbar-brand:hover {
+  color: var(--secondary) !important;
+  transition: all 0.3s ease-in-out;
 }
 
-.nav-item .nav-link{
-    color: var(--text-color)!important;
-    font-family: var(--header-font)!important;
+.nav-item .nav-link {
+  color: var(--text-color) !important;
+  font-family: var(--header-font) !important;
 }
-.nav-item .nav-link:hover{
-    color: var(--secondary)!important;
-    font-family: var(--header-font)!important;
-    transition: .5s ease-in-out;
+.nav-item .nav-link:hover {
+  color: var(--secondary) !important;
+  font-family: var(--header-font) !important;
+  transition: 0.5s ease-in-out;
 }
 
 header .links {
@@ -77,22 +77,21 @@ header .links {
   padding: 12px 15px;
   background-position: fixed;
 }
-#bannerText{
-    font-size: 20px;
-    font-family: var(--body-font);
-    color: var(--text-color);
-    line-height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+#bannerText {
+  font-size: 20px;
+  font-family: var(--body-font);
+  color: var(--text-color);
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#bannerText span{
-    font-size: 40px;
-    font-family: var(--header-font)!Important;
-    color: var(--text-color)!important;
-    line-height: 50px;
+#bannerText span {
+  font-size: 40px;
+  font-family: var(--header-font) !important;
+  color: var(--text-color) !important;
+  line-height: 50px;
 }
 header .links:hover {
   border: 2px solid var(--secondary);
@@ -105,7 +104,7 @@ header .links:hover {
 .fab:hover {
   transform: translate(-50px, -100px);
   cursor: pointer;
-  color: var(--secondary)
+  color: var(--secondary);
 }
 .fas:hover {
   transform: translate(-50px, -100px);
@@ -113,8 +112,8 @@ header .links:hover {
   color: var(--secondary);
 }
 .img-fluid {
-    height: 350px;
-    width: 350px;
+  height: 350px;
+  width: 350px;
 }
 
 img {
@@ -124,34 +123,33 @@ img {
   border: 2px solid var(--secondary);
   padding: 10px;
 }
-img:hover{
-    filter: grayscale(0%);
-    transform: all .4s;
+img:hover {
+  filter: grayscale(0%);
+  transform: all 0.4s;
 }
 .align-items-center {
-    align-items: center !important;
-    justify-content: center;
+  align-items: center !important;
+  justify-content: center;
 }
-.form-check{
-    position: sticky;
-    float: right;
-    padding: 8px 12px;
-    font-size: 20px;
-    
+.form-check {
+  position: sticky;
+  float: right;
+  padding: 8px 12px;
+  font-size: 20px;
 }
-.form-check input{
-    padding: 12px 22px;
+.form-check input {
+  padding: 12px 22px;
 }
-.col-lg-6 p{
-    margin-top: 30px !important;
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--text-color)!important;
-    font-family: var(--body-font)!Important;
+.col-lg-6 p {
+  margin-top: 30px !important;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-color) !important;
+  font-family: var(--body-font) !important;
 }
-.btn{
-    font-weight: bold;
-    color: var(--text-color);
-    background-color: var(--secondary);
-    width: 100%;
+.btn {
+  font-weight: bold;
+  color: var(--text-color);
+  background-color: var(--secondary);
+  width: 100%;
 }
